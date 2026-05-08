@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bulk STK Push Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Bulk STK Push Dashboard</h1>
+
+  <input type="number" id="amount" placeholder="Amount">
+
+  <input type="text" id="transactionCode" placeholder="Transaction Code">
+
+  <textarea
+    id="numbers"
+    placeholder="Enter numbers separated by commas"
+  ></textarea>
+
+  <button onclick="sendBulk()">
+    Send Bulk STK Push
+  </button>
+
+  <pre id="result"></pre>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
